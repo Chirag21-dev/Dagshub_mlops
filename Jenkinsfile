@@ -14,6 +14,7 @@ pipeline {
                     checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'Dagshub_mlops', url: 'https://dagshub.com/Chirag21-dev/dagshub_mlops.git']])
             }
         }
+        }
         stage('Install Packages') {
             steps {
                 // Install Packages
@@ -37,4 +38,4 @@ pipeline {
         }
     }
 }
-}
+
