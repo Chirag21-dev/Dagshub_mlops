@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Dagshub_mlops/mlruns/857591631357246210/0e524e4267b84af7b58d7527eaae1835/artifacts
+end_time: 1736875301451
+entry_point_name: ''
+experiment_id: '857591631357246210'
+lifecycle_stage: active
+run_id: 0e524e4267b84af7b58d7527eaae1835
+run_name: welcoming-boar-566
+run_uuid: 0e524e4267b84af7b58d7527eaae1835
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736875301319
+status: 3
+tags: []
+user_id: codespace

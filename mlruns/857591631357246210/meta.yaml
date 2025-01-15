@@ -1,0 +1,6 @@
+artifact_location: file:///workspaces/Dagshub_mlops/mlruns/857591631357246210
+creation_time: 1736875300784
+experiment_id: '857591631357246210'
+last_update_time: 1736875300784
+lifecycle_stage: active
+name: Iris Model Training
