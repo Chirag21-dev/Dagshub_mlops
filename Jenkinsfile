@@ -11,7 +11,7 @@ pipeline {
                 // Clone Repository
                 script {
                     echo 'Cloning DagsHub Repository...'
-                    checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'Dagshub_mlops', url: 'https://github.com/Chirag21-dev/Dagshub_mlops.git']])
+                    checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'Dagshub_mlops', url: 'https://dagshub.com/Chirag21-dev/dagshub_mlops.git']])
             }
         }
         stage('Install Packages') {
