@@ -7,6 +7,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score
 
+os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/Chirag21-dev/dagshub_mlops.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"] = "Chirag21-dev"
+os.environ["MLFLOW_TRACKING_PASSWORD"] = "d980373efd192ee4804cfbc4774b25dae32a31ec"
+
 # Set the MLflow experiment name
 mlflow.set_experiment("Iris Model Training")
 
