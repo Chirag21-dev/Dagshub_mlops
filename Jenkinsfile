@@ -15,7 +15,7 @@ pipeline {
             }
         }
         }
-        stage('Install Packages') {
+        stage('Install the necessary Packages') {
             steps {
                 // Install Packages
                 script {
